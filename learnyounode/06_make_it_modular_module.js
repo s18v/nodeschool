@@ -5,6 +5,6 @@ exports.method = function (dirName, ext, callback) {
 		if (err) {
 			throw new Error(err);
 		}
-		return callback(null, list);	
+		return callback(null, list);
 	});
 };
